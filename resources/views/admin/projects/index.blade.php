@@ -35,7 +35,7 @@
                     </td>
 
                     <td>
-                        <div class="badge text-bg-primary">{{ $project->category->name }}</div>
+                        <div class="badge text-bg-primary">{{ $project->category?->name }}</div>
                     </td>
 
                     <td>
